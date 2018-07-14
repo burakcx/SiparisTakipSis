@@ -1,4 +1,4 @@
-﻿using SiparisTakip.Dal.Abstract.Product;
+﻿using SiparisTakip.Dal.Abstract.StokA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,29 +8,24 @@ using SiparisTakip.Entity.Models;
 
 namespace SiparisTakip.Dal.Concrete.EntityFramework.Repository
 {
-    public class EFProductRepository : IProductDal
+    public class EFStokRepository : IStokDal
     {
-        public Products Getir(int id)
+        public Stok Getir(int id)
         {
             throw new NotImplementedException();
         }
 
-        public int Guncelle(Products nesne)
+        public Stok Guncelle(Stok nesne)
         {
             throw new NotImplementedException();
         }
 
-        public Products Kaydet(Products nesne)
+        public Stok Kaydet(Stok nesne)
         {
             throw new NotImplementedException();
         }
 
-        public List<Products> Listele()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool Sil(Products nesne)
+        public List<Stok> ListeGetir()
         {
             throw new NotImplementedException();
         }
