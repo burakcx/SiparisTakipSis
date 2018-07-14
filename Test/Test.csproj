@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FE470FF-4330-49AB-A548-923BE1011FCD}</ProjectGuid>
+    <ProjectGuid>{00C1BE27-45C8-40F6-B5DC-785FBDB79806}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SiparisTakip.Interfaces</RootNamespace>
-    <AssemblyName>SiparisTakip.Interfaces</AssemblyName>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,17 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FaturaIG\IFaturaService.cs" />
-    <Compile Include="IGenericService.cs" />
-    <Compile Include="KullaniciIG\IKullaniciService.cs" />
+    <Compile Include="Base.cs" />
+    <Compile Include="Kullanici.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StokIG\IStokService.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\SiparisTakip.Entity\SiparisTakip.Entity.csproj">
-      <Project>{3BA0E63B-44CB-4696-A4B5-60413B6CE707}</Project>
-      <Name>SiparisTakip.Entity</Name>
-    </ProjectReference>
+    <Compile Include="Uygulama.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

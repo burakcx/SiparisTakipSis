@@ -13,11 +13,11 @@ namespace SiparisTakip.Dal.Abstract.StokA
 
         List<Stok> ListeGetir();
 
-        Stok Kaydet(Stok nesne);
+        int Kaydet(Stok nesne);
 
-        Stok Guncelle(Stok nesne);
+        int Guncelle(Stok nesne);
 
-        bool Sil(int id);
+        Stok Sil(Stok nesne);
 
     }
 }

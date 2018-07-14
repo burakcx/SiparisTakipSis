@@ -1,4 +1,4 @@
-﻿using SiparisTakip.Dal.Abstract.StokA;
+﻿using SiparisTakip.Dal.Abstract.FaturaA;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,37 +9,35 @@ using SiparisTakip.Dal.Concrete.EntityFramework.Context;
 
 namespace SiparisTakip.Dal.Concrete.EntityFramework.Repository
 {
-    public class EFStokRepository : IStokDal
+    public class EFFaturaRepository : IFaturaDal
     {
         SiparisTakipEntity ctx = new SiparisTakipEntity();
 
-        public Stok Getir(int id)
+        public Fatura Getir(int id)
         {
-            var data = ctx.Stok.Where(x => x.StokID == id).FirstOrDefault();
-
-            return data;
+           return ctx.Fatura.Where(x => x.FaturaID == id).FirstOrDefault();
         }
 
-        public int Guncelle(Stok nesne)
+        public int Guncelle(Fatura nesne)
         {
-            ctx.Stok.Attach(nesne);
+            ctx.Fatura.Attach(nesne);
             return ctx.SaveChanges();
         }
 
-        public int Kaydet(Stok nesne)
+        public int Kaydet(Fatura nesne)
         {
-            ctx.Stok.Add(nesne);
+            ctx.Fatura.Add(nesne);
             return ctx.SaveChanges();
         }
 
-        public List<Stok> ListeGetir()
+        public List<Fatura> ListeGetir()
         {
-            return ctx.Stok.ToList();
+           return ctx.Fatura.ToList();
         }
 
-        public Stok Sil(Stok nesne)
+        public Fatura Sil(Fatura nesne)
         {
-            return ctx.Stok.Remove(nesne);
+           return ctx.Fatura.Remove(nesne);
         }
     }
 }
