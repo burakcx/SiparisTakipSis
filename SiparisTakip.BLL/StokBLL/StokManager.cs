@@ -27,9 +27,7 @@ namespace SiparisTakip.BLL.StokBLL
         public Stok Getir(int id)
         {
             throw new NotImplementedException();
-        }
-
-       
+        }       
 
         public int Guncelle(Stok nesne)
         {
