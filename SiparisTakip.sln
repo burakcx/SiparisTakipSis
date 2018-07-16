@@ -43,8 +43,6 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SiparisTakip.WcfIISHost", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiparisTakip.AspNetMvcWebApi", "SiparisTakip.AspNetMvcWebApi\SiparisTakip.AspNetMvcWebApi.csproj", "{6A8C22B3-05F4-4BA5-BF30-495AFA5D0D79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{00C1BE27-45C8-40F6-B5DC-785FBDB79806}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,10 +89,6 @@ Global
 		{6A8C22B3-05F4-4BA5-BF30-495AFA5D0D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A8C22B3-05F4-4BA5-BF30-495AFA5D0D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A8C22B3-05F4-4BA5-BF30-495AFA5D0D79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00C1BE27-45C8-40F6-B5DC-785FBDB79806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00C1BE27-45C8-40F6-B5DC-785FBDB79806}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00C1BE27-45C8-40F6-B5DC-785FBDB79806}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00C1BE27-45C8-40F6-B5DC-785FBDB79806}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

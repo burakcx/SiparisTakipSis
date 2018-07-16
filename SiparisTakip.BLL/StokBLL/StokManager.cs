@@ -11,40 +11,44 @@ namespace SiparisTakip.BLL.StokBLL
 {
     public class StokManager : IStokService
     {
-        IStokDal _IStokDal;
+        IStokDal _IStokDal;//
 
         public StokManager(IStokDal IStokDal)
         {
             _IStokDal = IStokDal;
-        }
-
-
-        public List<Stok> EkstraMetod()
-        {
-            throw new NotImplementedException();
-        }
+        }        
 
         public Stok Getir(int id)
         {
-            throw new NotImplementedException();
-        }       
+            var data = _IStokDal.Getir(id);
+            return data;
+        }
 
         public int Guncelle(Stok nesne)
         {
-            throw new NotImplementedException();
+            var data = _IStokDal.Guncelle(nesne);
+            return data;
         }
 
         public int Kaydet(Stok nesne)
         {
-            throw new NotImplementedException();
+            var data = _IStokDal.Kaydet(nesne);
+            return data;
         }
 
         public List<Stok> ListeGetir()
         {
-            throw new NotImplementedException();
+            return _IStokDal.ListeGetir();
+
         }
 
         public Stok Sil(Stok nesne)
+        {
+            var data = _IStokDal.Sil(nesne);
+            return data;
+        }
+
+        public List<Stok> EkstraMetod()
         {
             throw new NotImplementedException();
         }
