@@ -11,12 +11,12 @@ namespace SiparisTakip.BLL.StokBLL
 {
     public class StokManager : IStokService
     {
-        IStokDal _IStokDal;//
+        IStokDal _IStokDal;
 
         public StokManager(IStokDal IStokDal)
         {
             _IStokDal = IStokDal;
-        }        
+        }
 
         public Stok Getir(int id)
         {

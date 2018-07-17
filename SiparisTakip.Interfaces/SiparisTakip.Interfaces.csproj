@@ -30,7 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,10 +56,18 @@
     <Compile Include="StokIG\IStokService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SiparisTakip.Dal\SiparisTakip.Dal.csproj">
+      <Project>{97CA4744-4B12-4281-8D1C-B6315597F2DA}</Project>
+      <Name>SiparisTakip.Dal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SiparisTakip.Entity\SiparisTakip.Entity.csproj">
       <Project>{3BA0E63B-44CB-4696-A4B5-60413B6CE707}</Project>
       <Name>SiparisTakip.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

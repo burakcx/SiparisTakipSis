@@ -7,17 +7,8 @@ using System.Threading.Tasks;
 
 namespace SiparisTakip.Dal.Abstract.StokA
 {
-    public interface IStokDal
+    public interface IStokDal : IRepositoryDal<Stok>
     {
-        Stok Getir(int id);
-
-        List<Stok> ListeGetir();
-
-        int Kaydet(Stok nesne);
-
-        int Guncelle(Stok nesne);
-
-        Stok Sil(Stok nesne);
 
     }
 }

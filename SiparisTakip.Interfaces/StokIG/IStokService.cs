@@ -1,4 +1,5 @@
-﻿using SiparisTakip.Entity.Models;
+﻿using SiparisTakip.Dal.Concrete.EntityFramework.Context;
+using SiparisTakip.Entity.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace SiparisTakip.Interfaces.StokIG
 {
     public interface IStokService : IGenericService<Stok>
     {
-        List<Stok> EkstraMetod();
+
     }
 }

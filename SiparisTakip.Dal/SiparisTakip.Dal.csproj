@@ -52,12 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\FaturaA\IFaturaDal.cs" />
+    <Compile Include="Abstract\IRepositoryDal.cs" />
     <Compile Include="Abstract\KullaniciA\IKullaniciDal.cs" />
     <Compile Include="Abstract\StokA\IStokDal.cs" />
     <Compile Include="Concrete\EntityFramework\Context\SiparisTakipEntity.cs" />
     <Compile Include="Concrete\EntityFramework\Repository\EFFaturaRepository.cs" />
     <Compile Include="Concrete\EntityFramework\Repository\EFKullaniciRepository.cs" />
     <Compile Include="Concrete\EntityFramework\Repository\EFStokRepository.cs" />
+    <Compile Include="Concrete\EntityFramework\Repository\GenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
