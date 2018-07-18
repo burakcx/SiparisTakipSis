@@ -1,0 +1,14 @@
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.dll.config
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.pdb
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Dal.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Entity.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Dal.pdb
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Entity.pdb
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.xml
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.dll
+C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.pdb

@@ -24,10 +24,10 @@ namespace SiparisTakip.BLL.KullaniciBLL
             return data;
         }
 
-        public int Guncelle(Kullanici nesne)
+        public bool Guncelle(Kullanici nesne)
         {
             var data = _IKullaniciDal.Guncelle(nesne);
-            return data;
+            return true;
         }
 
         public int Kaydet(Kullanici nesne)

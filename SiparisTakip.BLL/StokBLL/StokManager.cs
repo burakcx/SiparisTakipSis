@@ -24,7 +24,7 @@ namespace SiparisTakip.BLL.StokBLL
             return data;
         }
 
-        public int Guncelle(Stok nesne)
+        public bool Guncelle(Stok nesne)
         {
             var data = _IStokDal.Guncelle(nesne);
             return data;

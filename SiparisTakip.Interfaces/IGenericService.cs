@@ -16,7 +16,7 @@ namespace SiparisTakip.Interfaces
 
         int Kaydet(T nesne);
 
-        int Guncelle(T nesne);
+        bool Guncelle(T nesne);
 
         T Sil(T nesne);
     }

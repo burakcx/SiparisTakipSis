@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SiparisTakip.Interfaces.StokIG;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,10 +9,22 @@ namespace SiparisTakip.AspNetMvcUI.Controllers
 {
     public class KullaniciController : Controller
     {
+        IStokService _StokService;
+
+        public KullaniciController(IStokService StokService)
+        {
+            _StokService = StokService;
+        }
+
+
         // GET: Kullanici
+        [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            var data = _StokService.ListeGetir();
+
+
+            return View(data);
         }
     }
 }

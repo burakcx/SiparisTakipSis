@@ -15,7 +15,7 @@ namespace SiparisTakip.BLL.FaturaBLL
             throw new NotImplementedException();
         }
 
-        public int Guncelle(Fatura nesne)
+        public bool Guncelle(Fatura nesne)
         {
             throw new NotImplementedException();
         }
