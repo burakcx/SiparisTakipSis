@@ -1,0 +1,191 @@
+//
+//** Pricing Tables 3 Snippet
+//
+
+//== Snippet Base
+@mixin m-build-snippet--pricing-tables-3-base() { 
+ 	.m-pricing-table-3 { 
+ 		padding: 80px 0 80px 0;  		  
+
+		&.m-pricing-table-3--fixed {
+			width: 75%;			
+			margin: 0 auto;			 
+		}
+
+		.m-pricing-table-3__items {			 
+			width: 100%; 			 		        
+			text-align: center;		   
+			
+			.m-pricing-table-3__item {	   
+				.m-pricing-table-3__wrapper {
+					padding: 4rem 1rem;			      
+					text-align: center;		
+				 
+				    .m-pricing-table-3__title {       
+				      	font-size:18px;      
+				    }
+				     
+					.m-pricing-table-3__price {			       	
+					    border-radius: 15px;			       
+					    margin-top: 40px;
+					    display: inline-block;			       	
+					    font-size: 37px;
+					    font-weight: get-font-weight(bolder);
+					    padding: 12px 20px 12px 20px;
+
+					    .m-pricing-table-3__label {
+					        font-size: 21px;
+					       	vertical-align: 33%;
+					    }					   
+
+					    .m-pricing-table-3__number {
+					    	font-size: 37px;
+					    }
+
+					    .m-pricing-table-3__text {
+					        font-size: 15px;
+					       	vertical-align: 40%;
+					    }			       		        
+					}
+
+					.m-pricing-table-3__description {
+					    text-align: center;	
+					    font-size: 13.5px;
+					    display: inline-block;
+					    margin-top: 40px;			      	
+
+					    > span {
+						    &:nth-child(1) {			      	
+						        letter-spacing: 0.15px;			      		
+						    }	
+						}  	      	
+					}
+
+					.m-pricing-table-3__btn { 	       	 
+					    margin: 40px auto 0 auto;
+
+					    > .btn {
+							padding: 11px 50px 11px 50px; 								 
+						}
+				    }					
+				}
+
+				&.m-pricing-table-3__item--focus {
+					.m-pricing-table-3__price {
+						font-size: 25px;
+						padding: 22px 30px 22px 30px;
+					}	
+
+					margin-top: -3rem;
+					margin-bottom: -3rem;
+
+					.m-pricing-table-3__wrapper {						
+						padding: 7rem 1rem;		
+					}	 					 
+				}	
+			}		  	
+		}			 
+ 	} 	 
+ 	 
+ 	@include  minimal-desktop() { 
+ 		.m-pricing-table-3 {		
+ 			&.m-pricing-table-3--fixed {
+				width: 90%;			
+				margin: 0 auto;			 
+			}	 
+	 	}
+ 	} 	 
+
+ 	@include tablet-and-mobile() { 
+ 		.m-pricing-table-3 {	
+ 			padding: 30px 0 30px 0;
+
+ 			&.m-pricing-table-3--fixed {
+				width: 100%;
+				margin: 0 auto;	
+
+			 	.m-pricing-table-3__items { 
+					.m-pricing-table-3__item {						
+						.m-pricing-table-3__wrapper {
+					     	padding: 3rem 1rem;				     	
+						}
+
+						&.m-pricing-table-3__item--focus {
+							margin-top: 0;
+							margin-bottom: 0;
+
+							.m-pricing-table-3__wrapper {	
+								padding: 3rem 1rem;
+							}
+						}      	 	    	 
+				  	}
+				}  	
+			}		  	
+		}	 	 
+ 	} 	 
+}
+
+//== Snippet Skin
+@mixin m-build-snippet--pricing-tables-3-skin() {
+	$skin: get-default-skin();
+	.m-pricing-table-3 {
+		.m-pricing-table-3__items {				  	  
+			@include shadow(get-shadow($skin, '--')); 
+
+			.m-pricing-table-3__item {	
+				.m-pricing-table-3__wrapper {		
+				    .m-pricing-table-3__title { 
+				    	color: get-color($skin, regular, '--');
+				    }
+				     
+					.m-pricing-table-3__price {
+						background-color: #FCFCFE;
+						color: get-color($skin, regular, '--');
+
+					    .m-pricing-table-3__label {
+					    	color: get-color($skin, regular, '----');			     		
+				     	}
+				     	 
+
+				     	.m-pricing-table-3__text {
+				     		color: get-color($skin, regular, '----');
+				        }			        
+					}
+
+					.m-pricing-table-3__description {
+					    color: get-color($skin, regular, '--');  			      	
+					}
+				}				
+
+				&.m-pricing-table-3__item--focus {		
+
+					.m-pricing-table-3__wrapper {
+						@include shadow(get-shadow($skin, '+')); 
+					}
+
+					.m-pricing-table-3__price {
+						background-color: #756ECD;
+
+						.m-pricing-table-3__label {
+						    color: #C4C2FF; 
+						}			      	 
+
+						.m-pricing-table-3__text {
+						    color: #C4C2FF;  
+						}
+				    }  		
+
+				    .m-pricing-table-3__description {
+					    color: #C4C2FF;
+					}				 	  						 			     	 			     
+			    }
+			}		
+		}	 
+	}	 
+}
+
+//== Build Snippet Base
+@include m-build-snippet--pricing-tables-3-base();
+
+//== Build Snippet Skin
+@include m-build-snippet--pricing-tables-3-skin();			 

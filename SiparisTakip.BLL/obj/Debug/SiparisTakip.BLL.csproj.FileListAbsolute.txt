@@ -11,3 +11,16 @@ C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\Sipari
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\EntityFramework.xml
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.BLL\obj\Debug\SiparisTakip.BLL.dll
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.BLL\obj\Debug\SiparisTakip.BLL.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.BLL.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.BLL.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Dal.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Entity.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Interfaces.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\EntityFramework.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Dal.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Entity.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\SiparisTakip.Interfaces.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\bin\Debug\EntityFramework.xml
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\obj\Debug\SiparisTakip.BLL.csprojResolveAssemblyReference.cache
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\obj\Debug\SiparisTakip.BLL.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.BLL\obj\Debug\SiparisTakip.BLL.pdb

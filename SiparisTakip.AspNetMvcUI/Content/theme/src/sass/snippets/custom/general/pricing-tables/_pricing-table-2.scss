@@ -1,0 +1,305 @@
+//
+//** Pricing Tables 2 Snippet
+//
+
+//== Snippet Base
+@mixin m-build-snippet--pricing-tables-base() {
+	.m-pricing-table-2 {		 
+		padding: 0 0 40px 0;
+
+		.m-pricing-table-2__head {
+			text-align: center;
+			background-color: #22B9FF;
+			padding: 120px 0 350px 0;
+
+			.m-pricing-table-2__title {
+			  	text-align:center; 
+			  	margin-top: -50px; 
+			}	
+
+			.btn-group {
+				text-align:center;
+				display: inline-block;
+				margin: 35px auto 0 auto; 
+
+			  	.btn {
+			  		margin-right: -3px;
+				  	padding: 14px 27px 14px 27px;
+				}  				
+			}
+		}
+
+		.m-pricing-table-2__content {
+		  	.m-pricing-table-2__container {
+			  	margin: 0 auto;		  	 
+			  	max-width: 75%;			   
+			  	margin-top: -303px;	  		 
+			  	 
+				.m-pricing-table-2__items {
+				  	background-color: #fff;			  	   
+				  	position: relative;				  			  	 
+				  	text-align: center;			  	 
+				  	padding: 30px 10px 30px 10px; 			  	 	
+
+					.m-pricing-table-2__item {
+					  	border-right: 1px solid #e1f1ff;				  	
+					  	width: 100%; 					  	 
+
+						&:last-child {
+						    border-right: none;
+						}					
+
+						.m-pricing-table-2__visual { 
+							position: relative;
+							margin-top: 95px;
+							left: 50%;
+    						transform: translateX(-50%) translateY(-50%);
+
+							.m-pricing-table-2__hexagon {
+								height: 0;
+								background: #F4FCFF;
+								left: 50%;
+    							transform: translateX(-50%) translateY(-50%);
+								position: absolute; 
+
+								&:before {
+									content: "";
+								    position: absolute;
+									top: -30px;								 
+									width: 185px;
+									height: 0;
+									border-left: 47px solid transparent;
+									border-right: 47px solid transparent;
+									border-bottom: 80px solid #F4FCFF;
+									left: 50%;
+    								transform: translateX(-50%) translateY(-50%);
+								}
+
+								&:after {
+									content: "";
+									position: absolute;								 
+									top: 50px; 
+									width: 185px;
+									height: 0;
+									border-left: 47px solid transparent;
+									border-right: 47px solid transparent;
+									border-top: 80px solid #F4FCFF;
+									left: 50%;
+    								transform: translateX(-50%) translateY(-50%);
+								}		 
+							}
+
+							.m-pricing-table-2__icon {
+								margin-top: 11px;
+								left: 50%;
+    							transform: translateX(-50%) translateY(-50%);
+								position: absolute;						
+
+								> i {
+									font-size: 90px;							
+								} 
+							}
+						}					
+					 
+						.m-pricing-table-2__subtitle {					  					  	 
+						  	margin-top: 240px;	
+						  	font-size: 23px;				  	
+						}
+
+						.m-pricing-table-2__features {					  				  	 
+						  	margin: 30px 0 25px;
+						  	line-height: 2.2;
+
+						  	> span {
+						  		display: block;
+						  		font-weight: get-font-weight(bolder);
+						  	}
+						}
+
+						.m-pricing-table-2__price {
+							font-size: 45px;
+							font-weight: get-font-weight(boldest);						 
+						}
+
+						.m-pricing-table-2__label {
+							margin: 9px 0 0 5px;
+							font-size: 25px;
+							position: absolute;
+						}
+
+						.m-pricing-table-2__btn {
+							margin: 30px auto 30px auto;
+
+							> .btn {
+								padding: 12px 50px 12px 50px; 
+								font-size: 12px;								 
+							}							 
+						}
+					}	 
+				}	
+			}
+	 	}
+	}
+
+	@include minimal-desktop() {
+		.m-pricing-table-2 {			 
+			 
+			.m-pricing-table-2__content {
+				padding: 0 30px 0 30px;
+
+				.m-pricing-table-2__container {
+					max-width: 90%;
+
+					.m-pricing-table-2__items {				    	 			    	 
+
+				    	.m-pricing-table-2__item {
+				    		border-right: 1px solid get-color(light, panel);				    		 
+				    		padding-left: 10px;
+				    		padding-right: 10px;
+				    		
+				    		&:last-child {
+							  	border-right: none;
+							}
+				    		 
+							.m-pricing-table-2__btn {
+								margin: 20px auto 50px auto;
+							}
+				    	}
+				  	}
+				}
+			}		
+		}		 				
+	}  
+
+	@include tablet() {
+		.m-pricing-table-2 {			 
+			.m-pricing-table-2__content {
+				padding: 0 30px 0 30px;
+
+				.m-pricing-table-2__container {
+					max-width: 90%;
+
+					.m-pricing-table-2__items {				    			    	 
+
+				    	.m-pricing-table-2__item {
+				    		border-bottom: 1px solid get-color(light, panel);
+				    		border-right: none;
+				    		padding-left: 10px;
+				    		padding-right: 10px;
+				    		
+				    		&:last-child {
+							  	border-bottom: none;
+							}
+				    		 
+							.m-pricing-table-2__btn {
+								margin: 20px auto 50px auto;
+							}
+				    	}
+				  	}
+				}
+			}		
+		}		 				
+	}  
+
+	@include mobile() {
+		.m-pricing-table-2 {	
+			.m-pricing-table-2__head {		 
+				.m-pricing-table-2__title {
+					top: 4%;
+					
+					> h1 {						
+						font-size: 25px;
+					}				 					 								 					 
+				}
+
+			    .btn-group {	
+			    	top: 8%;			    	
+			    	 
+					.btn {
+					  	padding: 10px 10px 10px 10px;				  		 
+					}					  					    			
+			    }
+			}    
+
+			.m-pricing-table-2__content {				 
+
+				.m-pricing-table-2__container {
+					width: 100%;
+
+					.m-pricing-table-2__items {				    	 
+				    	.m-pricing-table-2__item {
+				    		border-bottom: 1px solid get-color(light, panel);
+				    		border-right: none;
+				    		padding-left: 10px;
+				    		padding-right: 10px;
+				    		
+				    		&:last-child {
+							  	border-bottom: none;
+							} 
+
+							.m-pricing-table-2__btn {
+								margin: 20px auto 50px auto;
+							}
+				    	}
+				  	}
+				}
+			}		
+		}		 				
+	} 
+}
+
+//== Snippet Skin
+@mixin m-build-snippet--pricing-tables-skin() {
+	$skin: get-default-skin();
+	.m-pricing-table-2 {
+		.m-pricing-table-2__head {				 
+			.btn-group {				 
+				.btn {
+					@include shadow(get-shadow($skin, '++++'));
+
+					background: #fff;
+					color: get-color($skin, regular, '---');
+
+					&.active {
+						background: get-brand-color();
+						color: get-brand-inverse-color();   
+					}
+				}
+			}
+		}
+		
+		.m-pricing-table-2__content {					 
+			.m-pricing-table-2__container {				 
+				.m-pricing-table-2__items {
+					@include shadow(get-shadow($skin, '-')); 	    
+					
+					.m-pricing-table-2__item { 	
+						.m-pricing-table-2__subtitle {
+							color: get-color($skin, regular);
+						}
+
+						.m-pricing-table-2__features {
+							> span {
+								color: get-color($skin, regular, '-----');
+							}						 
+						}
+
+						.m-pricing-table-2__price {
+							color: get-color($skin, regular, '-');
+						}
+
+						.m-pricing-table-2__label {
+							color: get-color($skin, regular, '----');
+						}
+					}
+				}
+			}
+		}	
+	}
+}
+
+//== Build Snippet Base
+@include m-build-snippet--pricing-tables-base();
+
+//== Build Snippet - Skin
+@include m-build-snippet--pricing-tables-skin();

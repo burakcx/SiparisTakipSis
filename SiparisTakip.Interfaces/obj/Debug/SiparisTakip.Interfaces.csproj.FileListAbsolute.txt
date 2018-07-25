@@ -12,3 +12,17 @@ C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\Sipari
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.csprojResolveAssemblyReference.cache
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.dll
 C:\Users\Burak Coşkun\Desktop\Github\SiparisTakip_Github\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.dll.config
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Interfaces.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.SqlServer.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Dal.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Entity.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Dal.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\SiparisTakip.Entity.pdb
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.xml
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\bin\Debug\EntityFramework.SqlServer.xml
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.csprojResolveAssemblyReference.cache
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.dll
+D:\burak.coskun\Documents\GitHub\SiparisTakipSis\SiparisTakip.Interfaces\obj\Debug\SiparisTakip.Interfaces.pdb
